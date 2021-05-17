@@ -1,0 +1,11 @@
+apiVersion: 1.0.0
+metadata:
+  name: didact-quickstarts
+components:
+  - preferences:
+      didact.defaultUrl: 'https://raw.githubusercontent.com/redhat-developer/vscode-didact/f1e87d6df758ff0d5f31850dc034252403a7336f/examples/test.didact.yaml'
+      che.welcome.enable: false
+      didact.openDefaultTutorialAtStartup: true
+    type: chePlugin
+    reference: 'https://gist.githubusercontent.com/bfitzpat/be6b83debc7026d5ccf92302fe5c3bac/raw/ea71bec2d0a4562d7a755d447208b5635fd5053a/meta.yaml'
+    alias: didact-plugin
