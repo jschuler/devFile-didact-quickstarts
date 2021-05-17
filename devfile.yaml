@@ -1,6 +1,6 @@
-schemaVersion: 2.0.0
+apiVersion: 1.0.0
 metadata:
-  name: didact-quickstarts
+  name: didact-yaml
 components:
   - preferences:
       didact.defaultUrl: 'https://raw.githubusercontent.com/redhat-developer/vscode-didact/f1e87d6df758ff0d5f31850dc034252403a7336f/examples/test.didact.yaml'
